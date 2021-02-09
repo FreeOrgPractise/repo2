@@ -17,6 +17,18 @@
     		<version>8.0.20</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+	   <repository>
+		<id>nexus</id>
+		<name>Application Demo Rlease</name>
+		<url>http://13.233.98.85:8081/repository/demo-release/</url>
+	  </repository>
+	  <snapshotrepository>
+		<id>nexus</id>
+		<name>Application Demo Snapshot</name>
+		<url>http://13.233.98.85:8081/repository/Demo-snapshot/</url>
+	  </snapshotrepository>
+    </distributionManagement>
 	<properties>
 		<sonar.host.url>http://13.235.49.82:9000/</sonar.host.url>
 		<sonar.login>4c2e01ce30ead7958a62bf8b00aaaeecf609b08d</sonar.login>
