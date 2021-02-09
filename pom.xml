@@ -23,11 +23,11 @@
 		<name>Application Demo Rlease</name>
 		<url>http://13.233.98.85:8081/repository/demo-release/</url>
 	  </repository>
-	  <snapshotrepository>
+	  <snapshotRepository>
 		<id>nexus</id>
 		<name>Application Demo Snapshot</name>
 		<url>http://13.233.98.85:8081/repository/Demo-snapshot/</url>
-	  </snapshotrepository>
+	  </snapshotRepository>
     </distributionManagement>
 	<properties>
 		<sonar.host.url>http://13.235.49.82:9000/</sonar.host.url>
