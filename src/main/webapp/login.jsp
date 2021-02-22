@@ -11,7 +11,7 @@
 <div style="background-color:yellow">
 <h1><b>Exam Results</b></h1>
 </div>
-<marquee behaviour="scroll"><span style="color:red"><h3>*Exam Results are out*</h3></span></marquee>
+<marquee behaviour="scroll"><span style="color:red"><h6>*Exam Results are out*</h6></span></marquee>
 <div style="background-color:red">
 <form action="login.do" method="post">
 	<table>
