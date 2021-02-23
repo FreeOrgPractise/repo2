@@ -9,6 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+// this is a login servelet.
+
 @WebServlet(urlPatterns = "/login.do")
 public class LoginServlet extends HttpServlet {
 
